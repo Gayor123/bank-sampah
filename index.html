@@ -2,60 +2,71 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank Sampah Digital</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Bank Sampah Digital</h1>
-        <p>Kelola Sampah, Jaga Lingkungan, Dapatkan Manfaat</p>
-    </header>
+<!-- HEADER -->
+<div class="container wide">
+    <h2>Bank Sampah Digital</h2>
+    <p class="info">
+        Kelola Sampah, Jaga Lingkungan, Dapatkan Manfaat
+    </p>
+</div>
 
-    <nav>
-        <a href="index.html">Beranda</a>
-        <a href="login.html">Login</a>
-        <a href="nasabah.html">Nasabah</a>
-        <a href="edukasi.html">Edukasi</a>
-        <a href="tips.html">Tips</a>
-        <a href="admin.html">Admin</a>
-    </nav>
+<!-- MENU -->
+<div class="container wide">
+    <a href="index.html">Beranda</a>
+    <a href="login.html">Login</a>
+    <a href="nasabah.html">Nasabah</a>
+    <a href="edukasi.html">Edukasi</a>
+    <a href="tips.html">Tips</a>
+    <a href="admin.html">Admin</a>
+</div>
 
-    <main>
-        <section>
-            <h2>Selamat Datang 👋</h2>
-            <p>
-                Bank Sampah Digital adalah platform untuk membantu masyarakat
-                mengelola sampah secara lebih bijak, bernilai, dan ramah lingkungan.
-            </p>
-        </section>
+<!-- SELAMAT DATANG -->
+<div class="container wide">
+    <h2>Selamat Datang 👋</h2>
+    <p>
+        Bank Sampah Digital adalah platform untuk membantu masyarakat
+        mengelola sampah secara lebih bijak, bernilai, dan ramah lingkungan.
+    </p>
+</div>
 
-        <section>
-            <h2>Fitur Utama</h2>
-            <ul>
-                <li>📦 Pendataan Sampah Nasabah</li>
-                <li>💰 Pencatatan Tabungan Sampah</li>
-                <li>📚 Edukasi Pengelolaan Sampah</li>
-                <li>♻️ Tips Daur Ulang</li>
-            </ul>
-        </section>
+<!-- FITUR -->
+<div class="container wide">
+    <h2>Fitur Utama</h2>
 
-        <section>
-            <h2>Mulai Sekarang</h2>
-            <p>
-                Silakan login untuk mengakses layanan atau pelajari lebih lanjut
-                melalui menu edukasi dan tips.
-            </p>
-            <a href="login.html">
-                <button>Login</button>
-            </a>
-        </section>
-    </main>
+    <div class="grid">
+        <div class="card">
+            <h3 class="plastik">📦 Pendataan Sampah</h3>
+            <p>Pencatatan jenis dan jumlah sampah nasabah.</p>
+        </div>
 
-    <footer>
-        <p>&copy; 2026 Bank Sampah Digital</p>
-    </footer>
+        <div class="card">
+            <h3 class="kertas">💰 Tabungan Sampah</h3>
+            <p>Perhitungan saldo tabungan hasil sampah.</p>
+        </div>
+
+        <div class="card">
+            <h3 class="logam">📚 Edukasi</h3>
+            <p>Materi pengelolaan sampah yang mudah dipahami.</p>
+        </div>
+
+        <div class="card">
+            <h3 class="plastik">♻️ Tips Daur Ulang</h3>
+            <p>Tips praktis daur ulang sampah rumah tangga.</p>
+        </div>
+    </div>
+</div>
+
+<!-- AKSI -->
+<div class="container wide">
+    <h2>Mulai Sekarang</h2>
+    <p>Silakan login untuk mulai menggunakan layanan.</p>
+    <button onclick="location.href='login.html'">Login</button>
+</div>
 
 </body>
 </html>
